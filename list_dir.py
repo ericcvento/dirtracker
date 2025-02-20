@@ -9,7 +9,6 @@ import csv
 import pathlib
 import PyPDF2
 
-
 def GetHash(file):
     f = open(file,'rb')
     c = f.read()
